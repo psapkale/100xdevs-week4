@@ -1,0 +1,56 @@
+body {
+   display: grid;
+   place-content: center;
+}
+
+.wrapper {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.todoInput {
+   width: 45%;
+   height: 100%;
+}
+.todoInput > form {
+   display: grid;
+   place-content: center;
+   flex-direction: column;
+   padding-top: 10rem;
+   gap: 3rem;
+}
+.todoInput > form > input {
+   width: 25vw;
+   height: 5vh;
+   outline: none;
+   border: none;
+   border-radius: 8px;
+   padding: 10px 20px;
+}
+
+.todoList {
+   width: 55%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: center;
+   gap: 1rem;
+}
+
+.todoHolder {
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: start;
+}
+.titleText {
+   font-size: 2em;
+}
+.descText {
+   font-size: 1em;
+}
